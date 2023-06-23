@@ -1,0 +1,87 @@
+﻿body {
+   
+}
+
+
+.row-block {
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap: 30px;
+    justify-content: center;
+   
+}
+
+.heading {
+    grid-column:1/4;
+}
+
+.card {
+    color:white;
+    padding:10px 25px;
+    border-radius: 10px;
+    height:200px;
+    
+}
+
+.button {
+    color: white;
+    padding: 10px;
+    border: 1px solid;
+ 
+}
+
+.insert-form {
+   background: #f2f2f2;
+   padding:20px 20px;
+   border-radius:10px;
+    width: 400px;
+}
+.form-heading {
+    text-align: center;
+}
+
+.heading-text {
+   margin-bottom:30px;
+   margin-top:40px;
+ 
+}
+
+.table-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.margin{
+
+    margin-bottom:15px;
+}
+
+.container-box {
+    height:80vh;
+    overflow-x:scroll;
+    margin:10px;
+}
+
+.update-button{
+    color:yellow;
+}
+
+.width{
+    width:100%;
+}
+
+.number{
+    font-size:50px;
+   
+  
+   
+}
+
+.chart-area {
+text-align:center;
+margin-top:70px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
